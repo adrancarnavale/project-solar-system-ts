@@ -2,4 +2,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
+  transform: {
+    '.+\\.(css|scss|png|jpg|svg)$': 'jest-transform-stub',
+  },
 };
