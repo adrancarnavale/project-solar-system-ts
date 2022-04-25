@@ -5,7 +5,7 @@ import MarteImg from '../images/Marte.png';
 import JupiterImg from '../images/Jupiter.png';
 import SaturnoImg from '../images/Saturno.png';
 import Uranoimg from '../images/urano.png';
-import Netunoimg from '../assets';
+import Netunoimg from '../images/Netuno.png';
 
 const Planets = [
   { name: 'Mercúrio', image: MercurioImg },
