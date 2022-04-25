@@ -8,7 +8,7 @@ function Mission({
   },
 }: IProps) {
   return (
-    <StyledMission>
+    <StyledMission data-testid="space-mission">
       <StyledMissionInfo>{name}</StyledMissionInfo>
       <StyledMissionInfo>{year}</StyledMissionInfo>
       <StyledMissionInfo>{country}</StyledMissionInfo>

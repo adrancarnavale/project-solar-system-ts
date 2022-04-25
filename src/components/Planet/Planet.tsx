@@ -4,7 +4,7 @@ import { StyledPlanet, StyledPlanetImage } from './PlanetStyles';
 
 function Planet({ planet: { name, image } }: IProps) {
   return (
-    <StyledPlanet>
+    <StyledPlanet data-testid="planet">
       <p>{name}</p>
       <StyledPlanetImage src={image} alt={name} />
     </StyledPlanet>
